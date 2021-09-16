@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+font-family: sans-serif;
+    background-image:url(https://i.pinimg.com/originals/e4/98/1a/e4981a3dd4aa2fa6f0bc84cde9087c7a.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.navbar{
+    padding-bottom: 100%;
+    background-color: #444444;
+    position:fixed;
+    color: #082032;
+    display: flex;
+    flex-direction:row;
+    white-space: nowrap;
+    left: 0px;
+    top:0px;
+    margin:0%;
+}
+.navbar h1 {
+    font-size: 20px;
+    width:10%;
+    
+}
+.navbar a{
+    color:#2ec4b6;    
+}
+.yup{
+    position:fixed;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight:bold;
+    bottom:50%;
+    
+}
+
+.topbar{
+    
+    width: 100%;
+    display:block;
+   margin-top: 0px; 
+}
+h2{
+    font-size: 30px;
+    color:#2ec4b6;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:6.25%
+}
+h3{
+    color:#f3ebcc;
+    font-size:25px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:6.25%;
+}
+.notnavbar{
+    padding-left:0%;
+    padding-bottom: 100px;
+}
+.forgors{
+        
+display:block;
+margin-left:auto;
+margin-top:75px;
+margin-bottom:25px;
+margin-right:auto;
+border:6px black;
+border-style: solid;
+border-radius: 75%;
+}
+.maroon{
+    padding: 1%;
+    margin-left:5%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:17.5%;
+    width: 70%;
+    border: #f3ebcc 3px solid;
+    font-size: 25px;
+    color:rgb(189, 170, 189);
+    top: 500px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.yups{
+position:fixed;
+display:flex;
+bottom: 2%;
+font-size:30px;
+flex-direction:row;
+justify-content:space-evenly;
+}
+.nopes{
+padding-left:5px;
+padding-right:3px;
+}
+.nopes1{
+    padding-left:7.5px;
+    padding-right:3px;
+    font-size: 30px ;
+    }
+.projects{
+    border-top: 150px #2ec4b6;
+    border-style: solid;
+    padding-top:50px;
+    width: 100%;
+    margin-top: 50px;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-left: 0%;
+    
+}
+.projects h4{
+right: -725px;
+top: -175px;
+padding-left:6%;
+font-weight: bold;
+font-size: xx-large;
+position:relative;
+}
+.projects img{
+    border:4px black;
+    border-style: solid;
+    
+}
+.projects img:hover{
+    cursor: pointer;
+    opacity: 50%;
+    transition-property: all;
+    transition: 1.5s;
+}
+.projects p{
+    padding: 1%;
+    background-color: #2ec4b6;
+    font-size:20px;
+    border: 4px burlywood;
+    border-style: solid;
+}
+.contact-info{
+    padding:200px;
+    display: flex;
+    flex-direction: row;
+}
+.contact-info h5{
+    margin-top:-10%;
+    font-size:xx-large;
+    width: 100%;
+    text-align: center;
+}
+.contact-info p{
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contactbox{
+   margin-left: auto;  
+   margin-right: auto;
+    border:#2ec4b6 solid 4px;
+}
+.contact {
+    display: flex;
+    justify-content:center;
+    padding-bottom:20px;
+    padding-left:20%;
+    margin-left:22%;
+    width:10%
+}
+.contact h5{
+    font-size:x-large;
+    position: relative;
+    top: -50px;
+    left: 90%;
+}
+.contact p{
+
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;  
+}
+.contact input{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: mintcream;
+}
