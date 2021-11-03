@@ -6,7 +6,7 @@ Includes multiple forms of contacting me as well as a way to leave a message.
 
 https://orbit001.github.io/Portfolio/
 ## Languages
-HTML/CSS/JavaScript
+HTML/CSS
 
 ## License
  
