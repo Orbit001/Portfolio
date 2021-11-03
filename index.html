@@ -7,52 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orbit's Portfolio</title>
     <link rel="stylesheet" href="Assets/style.css">
-    <link rel="icon" href="OD_ts.png">
+    <link rel="icon" href="/Assets/images/OD_ts.png">
 </head>
 <body>
     
     <div class="navbar">
-        <h1><img src=OD_thtcl.png alt="Orbit's Logo" height=110px width=110px></h1>
-            <div class="yup">
-                <a href="#contact">Contact</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#about">About</a>  
-            </div>
-            <div class="yups">
-                <a href="https://github.com/orbit001" class="nopes1"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://github.com/orbit001" class="nopes"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/paul-m-0a306313b/" class="nopes"><i class="fab fa-linkedin"></i></a>
-            </div>
+        <h1><img src="Assets/images/OD_thtcl.png" alt="Orbit's Logo" height=110px width=110px></h1>
+        <div class="yup">
+            <a href="#contact">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>  
+        </div>
+        <div class="yups">
+            <a href="https://github.com/orbit001" class="nopes1"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://github.com/orbit001" class="nopes"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/paul-m-0a306313b/" class="nopes"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
-    <nav>
-    <header class="topbar">
-            <h2><a id="about"></a>Orbit's Designs</a></h2>
-                <h3>Front End Web Development Services</h3>
-    </header>  
-</nav>
-    <section class="notnavbar">
-        <img src="apulwhenforgor.png" class="forgors" alt="paul :)" height=300px width=300px>
+
+    <div class="pageContents">          <!-- Keep page contents that arent navbar here--><!-- Keep page contents that arent navbar here-->
+        <nav>
+            <header class="topbar">
+                    <h2><a id="about"></a>Orbit's Designs</a></h2>
+                    <h3>Front End Web Development Services</h3>
+            </header>  
+        </nav>
+
+        <section class="mainInfo">
+            <img src="Assets/images/apulwhenforgor.png" class="forgors" alt="paul :D " height=300px width=300px>
                 <div class="maroon">
                     <p>
-                       Orbit's Designs is a single-manned development company based in Philadelphia, Pennsylvania. I am currently attending a Full-Stack boot camp atUniversity of Penn, and slowly, but surely, honing my skills to deliver you ample and sufficient development services.
+                        Orbit's Designs is a single-manned development company based in Philadelphia, Pennsylvania. I am currently attending a Full-Stack boot camp at University of Penn, and slowly, but surely, honing my skills to deliver you ample and sufficient development services.
                     </p>
                 </div>
-    </section>
-    
+        </section>
 
-    <section class="projects">
-        <h4><a id="portfolio">Flagship Project</a></h4>
-    
-        <a href="https://steffb23.github.io/Group-Project-1/"><img src="google.png" alt="project 1" height="500" width="500"></a>
-            <p> 
-                Penn LPS is a state of the art website built for streamlining the process ofordering food online. Using tailwind as a UI, it is a beautiful, aswell as functional application of JavaScript, HTML and CSS.
-            </p>
-            </section>
-            
-            
-    <container class="contact-info">
-        <div class="contactbox">
-            <h5><a id="contact">Contact Info</a></h5>
+        <section class="projects" id="portfolio">
+            <p id="projectsTitle">Flagship Project</p>
+                <div class="flagshipProjectCard">
+                    <a href="https://steffb23.github.io/Group-Project-1/"><img src="Assets/images/SuperEatsgif.gif" alt="project 1" height="300" width="300"></a>
+                    <p>
+                        Penn LPS is a state of the art website built for streamlining the process ofordering food online. Using tailwind as a UI, it is a beautiful, aswell as functional application of JavaScript, HTML and CSS.
+                    </p>
+                </div>
+            <p id="projectsTitle">Smaller Projects</p>
+                <div class="projectCard">
+                    <a href="https://orbit001.github.io/Weather-Reporting-Site/"><img src="/Assets/images/WeatherAppgif.gif" alt="project 3" height="300" width="300"></a>
+                    <p>
+                        Lorem Ipsum something somethiong forgor PROJECT 2 !!!
+                    </p>
+                </div>
+                <div class="projectCard">
+                    <a href="https://orbit001.github.io/P-Word-Generator/"><img src="/Assets/images/Passwordgengif.gif" alt="project 3" height="300" width="300"></a>
+                    <p>
+                        Lorem Ipsum something somethiong forgor PROJECT 3 !!!
+                    </p>
+                </div>
+        </section>
+
+        <container class="contact-info">
+            <div class="contactbox">
+                <section style="font-size: 50px; font-weight: bolder;">Contact Info</section>
                 <section>
                     <p>Phone Number:<br>
                         609-513-5942 </p>
@@ -60,12 +75,12 @@
                     <p>
                         Email:<br>
                         Paul.mcd1@icloud.com</p>
-        </div>
-            </section>
-    </container>
-    <section>
-        <div class="contact">
-            <h5>Leave a Message!</h5>
+            </div>
+        </container>
+
+        <section>
+            <div class="contact">
+                <h5>Leave a Message!</h5>
                 <form action="Index_thank.html">
                     <label for="Name"><br></label>
                     <input type="text" id="name" name="name" placeholder="Name here!">
@@ -75,8 +90,8 @@
                     <input type="text" id="Email" name="Email" placeholder="Please type message here!">
 
                 </form>
-        </div>
-    </section>
-    
+            </div>
+        </section>
+    </div>
 </body> 
 </html>
